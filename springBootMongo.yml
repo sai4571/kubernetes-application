@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: saibabuk/spring-boot-mongo
+      - image: saibabuk/docker-k8
         name: springboot
         ports:
         - name: springboot
